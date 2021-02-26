@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN" style="height: 100%">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+    <meta name="format-detection" content="telephone=no">
+    <title>玩游戏赚钱</title>
+    <script>window.PointerEvent = undefined</script>
+    <!--<script src="http://192.168.1.196:8080/target/target-script-min.js"></script>-->
+    <script>
+        localStorage.setItem('preload_time',Date.now());
+    </script>
+    <script>
+        //声明_czc对象:
+        var _czc = _czc || [];
+        _czc.push(["_setAccount", "4370098"]);
+
+        var _hmt = _hmt || [];
+        _hmt.push(['_setAccount', '833be5ac9686bb7b57b1c34a6dbb91d6']);
+        _hmt.push(['_setAutoPageview', false]);
+        _hmt.push(['_trackPageview', '/v/gameCenter']);
+
+        function trackEvent(action, event) {
+            _hmt.push(['_trackEvent', 'gameCenter', action, event]);
+            _czc.push(["_trackEvent", 'gameCenter', action, event]);
+        }
+        trackEvent('index','loaded');
+    </script>
+</head>
+<body style="margin: 0;padding: 0;min-height:100%;">
+<script>
+    if(location.host === "d.fenfenriji.com"){
+        !(function(c,b,d,a){c[a]||(c[a]={});c[a].config={pid:"ck38pzap1c@551e9228339d99a",appType:"web",imgUrl:"https://arms-retcode.aliyuncs.com/r.png?"};
+            with(b)with(body)with(insertBefore(createElement("script"),firstChild))setAttribute("crossorigin","",src=d)
+        })(window,document,"https://retcode.alicdn.com/retcode/bl.js","__bl");
+    }
+</script>
+<div id="root"></div>
+<div style="display: none ;">
+    <script src="https://s4.cnzz.com/z_stat.php?id=4370098&web_id=4370098" language="JavaScript"></script>
+    <script src="https://hm.baidu.com/hm.js?833be5ac9686bb7b57b1c34a6dbb91d6"></script>
+</div>
+<!--<script src="./vconsole.min.js"></script>-->
+<!--<script>-->
+    <!--// init vConsole-->
+    <!--var vConsole = new VConsole();-->
+    <!--console.log('Hello world');-->
+<!--</script>-->
+<script src="./polyfill.js"></script>
+<script id="defineRem">
+    function runRem() {
+        var width = document.documentElement.clientWidth < 500?document.documentElement.clientWidth : 500;
+        var dpr = 2;
+        document.getElementsByTagName('html')[0].style['font-size'] = (width/320*12)*dpr/2+'px';
+    }
+    window.onresize = runRem;
+    runRem();
+</script>
+</body>
+</html>
